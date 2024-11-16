@@ -162,7 +162,15 @@ class DiabetesDetectionApp:
             text="Diabetes Risk Assessment",
             style='Title.TLabel'
         )
-        title_label.pack(pady=(0, 30))
+        title_label.pack(pady=(0, 10))
+
+        # Subtitle
+        subtitle_label = ttk.Label(
+            main_frame,
+            text="Please fill all the input fields",
+            style='Modern.TLabel'
+        )
+        subtitle_label.pack(pady=(3, 3))
 
         # Create frame for input fields
         fields_frame = ttk.Frame(main_frame, style='Modern.TFrame')
@@ -230,7 +238,7 @@ class DiabetesDetectionApp:
             text=self.field_descriptions[field],
             wraplength=400,
             style='Card.TLabel',
-            font=('Helvetica', 10)
+            font=('Helvetica', 10, 'italic')
         )
         desc_label.pack(anchor='w', pady=(0, 5))
 
