@@ -28,8 +28,8 @@ A modern, user-friendly desktop application for assessing diabetes risk based on
 
 1. Clone this repository or download the source code:
 ```bash
-git clone https://github.com/taild03/diabetes-risk-detection.git
-cd diabetes-risk-detection
+git clone https://github.com/taild03/Diabetes-Detection.git
+cd Diabetes-Detection
 ```
 
 2. Install the required dependencies:
@@ -43,7 +43,7 @@ pip install pandas numpy scikit-learn joblib
 
 1. Run the application:
 ```bash
-python diabetes_detection_app.py
+python diabetes_detection.py
 ```
 
 2. Enter the following health metrics in the provided fields:
@@ -79,7 +79,7 @@ python diabetes_detection_app.py
 ```
 diabetes-risk-detection/
 │
-├── diabetes_detection_app.py    # Main application file
+├── diabetes_detection.py        # Main application file
 ├── diabetes.csv                 # Dataset file
 ├── diabetes_model.joblib        # Saved model file (generated on first run)
 ├── diabetes_scaler.joblib       # Saved scaler file (generated on first run)
