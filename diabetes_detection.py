@@ -18,11 +18,11 @@ logging.basicConfig(
 
 class ModernStyle:
     # Enhanced color scheme
-    PRIMARY_COLOR = "#4361EE"  # Bright blue
-    SECONDARY_COLOR = "#4CC9F0"  # Light blue
-    BACKGROUND_COLOR = "#F0F6FF"  # Soft blue background
-    CARD_BG = "#FFFFFF"  # White for cards
-    TEXT_COLOR = "#2B2D42"  # Dark blue-gray
+    PRIMARY_COLOR = "#1E88E5"  # Medium blue
+    SECONDARY_COLOR = "#43A047"  # Fresh green
+    BACKGROUND_COLOR = "#E3F2FD"  # Light blue background
+    CARD_BG = "#F8F9FA"  # Soft gray for cards
+    TEXT_COLOR = "#212121"  # Dark gray
     
     # Fonts
     TITLE_FONT = ('Helvetica', 24, 'bold')
